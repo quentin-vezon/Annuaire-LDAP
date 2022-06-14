@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+
+body {
+	color: #333;
+	font-size: 11px;
+	font-family: verdana;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #DFE44F;
+}
+
+p {
+	margin: 0;
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+.box {
+	background: #fff;
+	
+}
+.box2 {
+	background: #fff;
+	height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxholder {
+	clear: both;
+	padding: 5px;
+	background: #569cec;
+}
+.tab {
+	float: left;
+	height: 32px;
+	width: 102px;
+	margin: 0 1px 0 0;
+	text-align: center;
+	background: #569cec url(images/greentab.jpg) no-repeat;
+}
+.tab1 {
+	float: left;
+	height: 32px;
+	width: 102px;
+	margin: 0 1px 0 0;
+	text-align: center;
+	background: #569cec url(images/greentab.jpg) no-repeat;
+}
+.tabtxt {
+	margin: 0;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 9px 0 0 0;
+}
+
+
+
+#search-wrap input {
+	width:140px;
+	height:14px;
+	font-size:12px;
+	color:#569cec;
+	padding:4px;
+	border:solid 1px #569cec;
+}
+#results {
+	width:300px;
+	border:solid 1px #00294B;
+	font-size:12px;
+	display:none;
+	background-color: #ffffff;
+	position: absolute;
+	z-index:100;
+}
+#results ul, #results li {
+	padding:0;
+	margin:0;
+	border:0;
+	list-style:none;
+}
+#results li {
+	border-top:solid 2px #DEDEDE;
+}
+#results li a {
+	display:block;
+	padding:4px;
+	text-decoration:none;
+	color:#FFFFFF;
+	background-color: #569cec;
+	font-weight:bold;
+}
+#results li a small {
+	display:block;
+	text-decoration:none;
+	color:#999999;
+	font-weight:normal;
+}
+#results li a:hover {
+	background:#FFFFCC;
+	color:#000000;
+}
+#results ul {
+	padding:6px;
+}
+
+/*
+*  Annuaire
+*/
+
+.directoryBlock { background-color: #e2f0f5; padding: 25px; text-align: center; border-radius: 3px; }
+.directoryBlock .blocTitle { margin-bottom: 20px; text-transform: uppercase; font-size: 14px; line-height: 18px; color: #4f6166; }
+
+.memberItem { float: left; width: 100%; margin-bottom: 25px;  }
+.memberInfosWrapper { margin-left: 70px; border: 1px solid #569cec; }
+.memberInfosWrapper label { font-size: 13px; color: #4f6166; }
+.directoryResults h4 { text-align: center; margin-bottom: 25px; border-bottom: 1px solid #cfd4d5; padding-bottom: 20px;  }
+.directoryResults h5 { text-align: center; margin-bottom: 25px;  padding-bottom: 20px;  }
+.directoryResults { margin-top: 35px; }
+
+
+
+
+

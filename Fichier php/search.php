@@ -150,7 +150,7 @@ $lang='fr';
 if($lang=='')$lang='fr';
 //$Nom= $_GET['annuaire'];
 //A changer pour le vrai serveur alkaid 
-$Server="alkaid-clone.sic.int";
+$Server="XXX";
 $DateSeconde=strtotime ("now");
 $DateUnix=$DateSeconde/86400;
 

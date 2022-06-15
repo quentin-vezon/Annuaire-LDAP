@@ -104,9 +104,9 @@ switch($ou) {
         break;
 }
 
-$entry['userpassword'][0]='{crypt}plIfkjqv4pISA';
-$entry['sambalmpassword'][0]=NTLMHash("12345678");
-$entry['sambantpassword'][0]=NTLMHash("12345678");
+$entry['userpassword'][0]='XXXX';
+$entry['sambalmpassword'][0]=NTLMHash("XXXX");
+$entry['sambantpassword'][0]=NTLMHash("XXXX");
  
 $entry['displayname'][0]=$entry['givenname'][0].' '.$entry['sn'][0];
 

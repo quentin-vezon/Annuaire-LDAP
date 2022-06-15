@@ -1,11 +1,9 @@
 <?php
 
-//$bdd = new PDO('mysql:host=yoshi.sic.int;dbname=SyncAD', 'aduser', 'p34SRu9eUvSZBtUZ');
-//$bdd->exec('INSERT INTO user(login,password,tag) VALUES(\'Battlefield 1942\', \'Patrick\', \'0\')');
 
 try
 {
-	$bdd = new PDO('mysql:host=yoshi.sic.int;dbname=SyncAD', 'aduser', 'p34SRu9eUvSZBtUZ');
+	$bdd = new PDO('XXX');
 	$a="test123";
 	$b="test123";
 	$c="test123";

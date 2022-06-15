@@ -15,7 +15,7 @@
 
 //////
 
-	$expediteur   = "sic@sic.montp.cnrs.fr";
+	$expediteur   = "XXX@XXX.fr";
 	$reponse      = $expediteur;
 
 //////
@@ -76,11 +76,11 @@
 
 
 ///////
-	$sujet        =  utf8_decode("Liste help@sic.montp.cnrs.fr");
+	$sujet        =  utf8_decode("Liste XXX@XXX.fr");
 	$codehtml     =
 	"<html><body>" .
 	"Bonjour,<br><br>" .
-	"La liste <b>help@sic.montp.cnrs.fr</b> est destin&eacute;e &agrave; rechercher des produits chimiques et biologiques, ou encore &agrave; annoncer la disponibilit&eacute; d'un mat&eacute;riel scientifique (microscope, facs, PCR, etc.) <br> <br>" .
+	"La liste <b>XXX@XXX.fr</b> est destin&eacute;e &agrave; rechercher des produits chimiques et biologiques, ou encore &agrave; annoncer la disponibilit&eacute; d'un mat&eacute;riel scientifique (microscope, facs, PCR, etc.) <br> <br>" .
 	"Cette liste regroupe les utilisateurs de l'IGMM, IRIM, CRBM et CEMIPAI. <br><br> " .
 	"Vous pouvez vous abonner en envoyant un mail &agrave; l'adresse suivante : " .
 	"<b>sympa@aurora.sic.montp.cnrs.fr </b><br>" .
@@ -88,9 +88,9 @@
 	"<br>" .
     "<br><br>--------------------------------------------------------------------------------<br><br>" .
 	"Hello,<br><br>" .
-	"The mailing list <b>help@sic.montp.cnrs.fr</b> is dedicated to scientific exchanges such as chemical or biological reagent requests, or scientific devices availability (microscope, PCR machines, facs, etc.)<br> <br>".
+	"The mailing list <b>XXX@XXX.fr</b> is dedicated to scientific exchanges such as chemical or biological reagent requests, or scientific devices availability (microscope, PCR machines, facs, etc.)<br> <br>".
 	"If you wish to register to it, just send an e-mail to the following address : " .
-	"<b>sympa@aurora.sic.montp.cnrs.fr</b><br>" .
+	"<b>XXX@XXX.fr</b><br>" .
     "With <b> subscribe sic_help </b> as object.<br><br>" .
 	"</body></html>";
  
@@ -98,21 +98,21 @@
 
 ///////
 	
-	$sujet        =  utf8_decode("Liste annonce@sic.montp.cnrs.fr");
+	$sujet        =  utf8_decode("Liste XXX@XXX.fr");
 	$codehtml     =
 	"<html><body>" .
 	"Bonjour.<br><br>" .
-	"La liste <b>annonce@sic.montp.cnrs.fr</b> est destin&eacute;e &agrave; annoncer tous les &eacute;v&egrave;nements et demandes &agrave; caract&egrave;re scientifique : s&eacute;minaires, animations scientifiques, etc.  <br> <br>" .
+	"La liste <b>XXX@XXX.fr</b> est destin&eacute;e &agrave; annoncer tous les &eacute;v&egrave;nements et demandes &agrave; caract&egrave;re scientifique : s&eacute;minaires, animations scientifiques, etc.  <br> <br>" .
 	"Cette liste regroupe les utilisateurs de l'IGMM, IRIM, CRBM et CEMIPAI. <br><br>" .
     "Vous pouvez vous abonner en envoyant un mail &agrave; l'adresse suivante :" .
-    "<b>sympa@aurora.sic.montp.cnrs.fr </b><br>" .
+    "<b>XXX@XXX.fr </b><br>" .
     "Avec pour objet : <b> subscribe sic_annonce</b>.<br>" .
     "<br><br>--------------------------------------------------------------------------------<br><br>" .
 	"Hello.<br><br>" .
-	"The mailing list <b>annonce@sic.montp.cnrs.fr</b> is dedicated to scientific meeting announcements and requests: seminars, workshops, etc. <br> <br>".
+	"The mailing list <b>XXX@XXX.fr</b> is dedicated to scientific meeting announcements and requests: seminars, workshops, etc. <br> <br>".
 	"<br>" .
 	"If you wish to register to it, just send an e-mail to the following address : " .
-	"<b>sympa@aurora.sic.montp.cnrs.fr</b><br>" .
+	"<b>XXX@XXX.fr</b><br>" .
     "With <b> subscribe sic_annonce</b> as object.<br><br>" .
 	"</body></html>";
 	
@@ -122,22 +122,22 @@
 ///////
 
 
-	$sujet        =  utf8_decode("Liste leboncoin@sic.montp.cnrs.fr"); 
+	$sujet        =  utf8_decode("Liste XXX@XXX.fr"); 
 	$codehtml     =
 	"<html><body>" .
 	"Bonjour.<br><br>" .
-	"La liste <b>leboncoin@sic.montp.cnrs.fr</b> est destin&eacute;e aux petites annonces, locations, ventes, etc. <br> <br>" .
+	"La liste <b>XXX@XXX.fr</b> est destin&eacute;e aux petites annonces, locations, ventes, etc. <br> <br>" .
 	"Cette liste regroupe les utilisateurs de l'IGMM, IRIM, CRBM et CEMIPAI." .
 	"<br>" .
     "Vous pouvez vous abonner en envoyant un mail &agrave; l'adresse suivante : " .
-    "<b>sympa@aurora.sic.montp.cnrs.fr </b><br>" .
+    "<b>XXX@XXX.fr </b><br>" .
     "Avec pour objet : <b> subscribe sic_leboncoin</b>.<br>" .
     "<br><br>--------------------------------------------------------------------------------<br><br>" .
 	"Hello.<br><br>" .
 	"<br>" .
-	"We have created a mailing list called '<b>leboncoin@sic.montp.cnrs.fr<b>' which you should use to post adds related to house renting, sales, etc... <br> <br>" .
+	"We have created a mailing list called '<b>XXX@XXX.fr<b>' which you should use to post adds related to house renting, sales, etc... <br> <br>" .
 	"If you wish to register to it, just send an e-mail to the following address : " .
-	"<b>sympa@aurora.sic.montp.cnrs.fr</b><br>" .
+	"<b>XXX@XXX.cnrs.fr</b><br>" .
     "With <b> subscribe sic_leboncoin</b> as object.<br><br>" .
 	"</body></html>";
  
@@ -146,22 +146,22 @@
 //////
 
 
-        $sujet        =  utf8_decode("Liste yeast@sic.montp.cnrs.fr");
+        $sujet        =  utf8_decode("Liste XXX@XXX.fr");
         $codehtml     =
         "<html><body>" .
         "Bonjour.<br><br>" .
-        "La liste <b>yeast@sic.montp.cnrs.fr</b> est destin&eacute;e aux levuristes <br> <br>" .
+        "La liste <b>XXX@XXX.fr</b> est destin&eacute;e aux levuristes <br> <br>" .
         "Cette liste regroupe les utilisateurs de l'IGMM, IRIM, CRBM et CEMIPAI." .
         "<br>" .
     "Vous pouvez vous abonner en envoyant un mail &agrave; l'adresse suivante : " .
-    "<b>sympa@aurora.sic.montp.cnrs.fr </b><br>" .
+    "<b>XXX@XXX.fr </b><br>" .
     "Avec pour objet : <b> subscribe sic_yeast</b>.<br>" .
     "<br><br>--------------------------------------------------------------------------------<br><br>" .
         "Hello.<br><br>" .
         "<br>" .
-        "We have created a mailing list called '<b>yeast@sic.montp.cnrs.fr<b>' <br> <br>" .
+        "We have created a mailing list called '<b>XXX@XXX.fr<b>' <br> <br>" .
         "If you wish to register to it, just send an e-mail to the following address : " .
-        "<b>sympa@aurora.sic.montp.cnrs.fr</b><br>" .
+        "<b>XXX@XXX.fr</b><br>" .
     "With <b> subscribe sic_yeast</b> as object.<br><br>" .
         "</body></html>";
 
@@ -238,4 +238,4 @@ $codehtml     =
 "L'utilisateur" . $entry['displayname'][0] . "vient de créer son compte utilisateur.<br><br>" .
 "La date de son contrat se termine le" . $entry['shadowexpire'][0] .
 "</body></html>";
-mail('quentin.vezon@gmail.com', $sujet, $codehtml, "From: $expediteur\r\n". "Reply-To: $reponse\r\n". "Content-Type: text/html; charset=\"iso-8859-1\"\r\n");
+mail('XXX@XXX.com', $sujet, $codehtml, "From: $expediteur\r\n". "Reply-To: $reponse\r\n". "Content-Type: text/html; charset=\"iso-8859-1\"\r\n");

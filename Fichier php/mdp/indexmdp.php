@@ -160,11 +160,11 @@ if ( $result === "" ) {
         
         
         #####envoie de mail mofif PL 
-            $expediteur   = "sic@sic.montp.cnrs.fr";
+            $expediteur   = "XXX@XXX.fr";
             $reponse      = $expediteur;
 
             $sujet        =  utf8_decode("changement mot de passe ");
-            $destinataire = "patrice.langlois@igmm.cnrs.fr";
+            $destinataire = "XXX@XXX.fr";
 
     $codehtml     =
     "<html><body>" .
@@ -191,7 +191,7 @@ $crypt   = Chiffrement::encrypt_decrypt('encrypt',$newpassword);
 
 try
 {
-	$bdd = new PDO('mysql:host=yoshi.sic.int;dbname=SyncAD', 'aduser', 'p34SRu9eUvSZBtUZ');
+	$bdd = new PDO('XXX');
 	// $a=$crypt2;
 	$a=$login ;
 	//$b=$crypt ;

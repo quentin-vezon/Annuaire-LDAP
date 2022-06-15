@@ -24,8 +24,8 @@
 #==============================================================================
 # LDAP
 $ldap_url = "ldap://localhost";
-$ldap_binddn = "cn=admin,dc=sic,dc=montp,dc=cnrs,dc=fr";
-$ldap_bindpw = "Montp,cnrs";
+$ldap_binddn = "XXX";
+$ldap_bindpw = "XXX";
 $ldap_base = "dc=sic,dc=montp,dc=cnrs,dc=fr";
 ##$ldap_filter = "(&(objectClass=person)(uid={login}))";
 $ldap_filter = "(&(objectClass=person)(cn={login}))";

@@ -16,8 +16,8 @@ $base_groupe	=	"ou=groupe,".$racine;
 
 
 //Utilisateur administrateur
-$admin_user = 'cn=ydumartineix,ou=people,dc=sic,dc=montp,dc=cnrs,dc=fr';
-$admin_pass = '!Ja1tbm2p!';
+$admin_user = 'xxx';
+$admin_pass = '!xxxx';
 
 
 //Liste des laboratoires
@@ -25,27 +25,10 @@ $labo=array('CRBM', 'IGMM', 'IRIM', 'CEMIPAI', 'UAR', 'ANISEED', 'MRI', 'SIC');
 
 //Liste des cn adminstrateurs 
 $cn_admin=array(
-				'nkrasinski'	=>	'admin' ,
-				'omiquel2'		=>	'admin' ,
-				'planglois'		=>	'admin' ,
-				'mbecker'		=>	'admin' ,
-		        'tlavergne'    	=>  'admin' ,
-				'verger'		=>	'admin' ,
-				'wviel'			=>	'admin' ,
-				'qvezon'		=>	'admin',
-                'mmiras'		=>	'CRBM',
-				'vpham'			=>	'CRBM',
+				'xxx'	=>	'admin' ,
+				'xxxx'			=>	'CRBM',
 				'lseguier'		=>	'CRBM',
-				'pdiamante'		=>	'IRIM',
-				'cgagnere'		=>	'IRIM',
-				'cleon' 		=>	'IRIM',
-				'fdomergue'		=>	'IRIM',
-				'cbezancon'		=>	'IRIM',
-				'fcouderc'		=>	'IGMM',
-				'sperramond'	=>	'IGMM',
-				'julien'		=>	'IGMM',
-				'ejourdan'		=>	'IGMM',
-
+				'xxx'		=>		'IRIM',
 );
 
 
